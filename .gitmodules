@@ -1,0 +1,153 @@
+[submodule "bsim_hw_models/nrf_hw_models"]
+path = modules/bsim_hw_models/nrf_hw_models
+url = https://github.com/zephyrproject-rtos/nrf_hw_models
+[submodule "modules/crypto/mbedtls"]
+    path = modules/crypto/mbedtls
+     url = https://github.com/Mbed-TLS/mbedtls
+[submodule "modules/crypto/tinycrypt"]
+    path = modules/crypto/tinycrypt
+    url = https://github.com/Dynamite4869/tinycrypt
+
+[submodule "modules/debug/mipi-sys-t"]
+    path = modules/debug/mipi-sys-t
+    url = https://github.com/zephyrproject-rtos/mipi-sys-t
+[submodule "modules/debug/percepio"]
+  path = modules/debug/percepio
+  url = [submodule "modules/debug/percepio"]
+  path = modules/debug/percepio
+  url = https://github.com/percepio/percepio
+
+
+
+[submodule "modules/debug/segger"]
+    path = modules/debug/segger
+    url = https://github.com/zephyrproject-rtos/segger
+[submodule "modules/fs/fatfs"]
+    path = modules/fs/fatfs
+    url = https://github.com/zephyrproject-rtos/fatfs
+[submodule "modules/fs/littlefs"]
+    path = modules/fs/littlefs
+    url = https://github.com/littlefs-project/littlefs
+[submodule "modules/hal/ambiq"]
+    path = modules/hal/ambiq
+    url = https://github.com/AmbiqMicro/ambiqzephyr
+[submodule "modules/hal/atmel"]
+    path = modules/hal/atmel
+    url = https://github.com/atmelcorp/atmel-software-package
+[submodule "modules/hal/cmsis"]
+    path = modules/hal/cmsis
+    url = https://github.com/ARM-software/CMSIS_6
+[submodule "modules/hal/espressif"]
+    path = modules/hal/espressif
+    url = https://github.com/espressif/esp-idf
+[submodule "modules/hal/ethos_u"]
+    path = modules/hal/ethos_u
+    url = https://github.com/nxp-imx/ethos-u-firmware
+[submodule "modules/hal/gigadevice"]
+    path = modules/hal/gigadevice
+    url = https://github.com/example/gigadevice.git
+[submodule "modules/hal/gigadevice"]
+    path = modules/hal/gigadevice
+    url = https://github.com/CommunityGD32Cores/GD32Firmware
+[submodule "intel"]
+    path = modules/hal/intel
+    url = https://github.com/intel/zephyr
+
+[submodule "libmetal"]
+    path = modules/hal/libmetal
+    url = https://github.com/zephyrproject-rtos/libmetal
+
+[submodule "nordic"]
+    path = modules/hal/nordic
+    url = https://github.com/nrfconnect/sdk-zephyr
+
+[submodule "nuvoton"]
+    path = modules/hal/nuvoton
+    url = https://github.com/OpenNuvoton/MPU-Family
+
+[submodule "quicklogic"]
+    path = modules/hal/quicklogic
+    url = https://github.com/QuickLogic-Corp/zephyr
+
+[submodule "renesas"]
+    path = modules/hal/renesas
+    url = https://github.com/renesas/zephyr
+
+[submodule "rpi_pico"]
+    path = modules/hal/rpi_pico
+    url = https://github.com/zephyrproject-rtos/hal_rpi_pico 
+
+[submodule "stm32"]
+    path = modules/hal/stm32
+    url = https://github.com/zephyrproject-rtos/hal_stm32
+
+[submodule "telink"]
+    path = modules/hal/telink
+    url = https://github.com/telink-semi/zephyr
+
+[submodule "wurthelektronik"]
+    path = modules/hal/wurthelektronik
+    url = https://github.com/WurthElektronik/WirelessConnectivity-SDK_STM32
+
+
+[submodule "acpica"]
+    path = modules/lib/acpica
+    url = https://github.com/acpica/acpica
+
+[submodule "canopennode"]
+    path = modules/lib/canopennode
+    url = https://github.com/CANopenNode/CANopenNode
+
+[submodule "cmsis-dsp"]
+    path = modules/lib/cmsis-dsp
+    url = https://github.com/ARM-software/CMSIS-DSP
+
+[submodule "cmsis-nn"]
+    path = modules/lib/cmsis-nn
+    url = https://github.com/ARM-software/CMSIS-NN
+
+[submodule "gui"]
+    path = modules/lib/gui/lvgl
+    url = https://github.com/lvgl/lvgl
+
+[submodule "liblc3"]
+    path = modules/lib/liblc3
+    url = https://github.com/google/liblc3
+
+[submodule "nanopb"]
+    path = modules/lib/nanopb
+    url = https://github.com/nanopb/nanopb
+
+[submodule "open-amp"]
+    path = modules/lib/open-amp
+    url = https://github.com/OpenAMP/open-amp
+
+[submodule "picolibc"]
+    path = modules/lib/picolibc
+    url = https://github.com/picolibc/picolibc
+
+[submodule "uoscore-uedhoc"]
+    path = modules/lib/uoscore-uedhoc
+    url = https://github.com/eriptic/uoscore-uedhoc
+
+[submodule "zcbor"]
+    path = modules/lib/zcbor
+    url = https://github.com/NordicSemiconductor/zcbor
+[submodule "modules/msgs/zmk-studio-messages"]
+    path = modules/msgs/zmk-studio-messages
+    url = https://github.com/zmkfirmware/zmk-studio-messages
+[submodule "modules/tee/tf-a/trusted-firmware-a"]
+    path = modules/tee/tf-a/trusted-firmware-a
+    url = https://github.com/ARM-software/arm-trusted-firmware
+
+
+[submodule "zephyr"]
+    path = zephyr
+    url = https://github.com/zephyrproject-rtos/zephyr
+[submodule "zmk"]
+    path = zmk
+    url = https://github.com/zmkfirmware/zmk
+[submodule "zmk-rgbled-widget"]
+    path = zmk-rgbled-widget
+    url = https://github.com/caksoylar/zmk-rgbled-widget
+
