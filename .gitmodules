@@ -150,4 +150,7 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 [submodule "zmk-rgbled-widget"]
     path = zmk-rgbled-widget
     url = https://github.com/caksoylar/zmk-rgbled-widget
+[submodule "bootloader/mcuboot"]
+    path = bootloader/mcuboot
+    url = https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/dfu/boot/mcuboot.c
 
