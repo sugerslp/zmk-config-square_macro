@@ -157,4 +157,7 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
     path = modules/hal/adi
     url = https://github.com/zephyrproject-rtos/hal_adi
 
+[submodule "modules/hal/altera"]
+    path = modules/hal/altera
+    url = https://github.com/zephyrproject-rtos/hal_altera
 
