@@ -153,4 +153,8 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 [submodule "bootloader/mcuboot"]
     path = bootloader/mcuboot
     url = https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/dfu/boot/mcuboot.c
+[submodule "modules/hal/adi"]
+    path = modules/hal/adi
+    url = https://github.com/zephyrproject-rtos/hal_adi
+
 
