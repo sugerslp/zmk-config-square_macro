@@ -160,4 +160,6 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 [submodule "modules/hal/altera"]
     path = modules/hal/altera
     url = https://github.com/zephyrproject-rtos/hal_altera
-
+[submodule "modules/hal/infineon"]
+    path = modules/hal/infineon
+    url = https://github.com/zephyrproject-rtos/hal_infineon
