@@ -115,6 +115,11 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 [submodule "modules/hal/espressif"]
     path = modules/hal/espressif
     url = https://github.com/zephyrproject-rtos/hal_espressif
+
+[submodule "modules/hal/espressif/components/bt/controller/lib_esp32"]
+    path = modules/hal/espressif/components/bt/controller/lib_esp32
+    url = https://github.com/zephyrproject-rtos/hal_espressif
+
 [submodule "modules/hal/ethos_u"]
     path = modules/hal/ethos_u
     url = https://github.com/zephyrproject-rtos/hal_ethos_u
