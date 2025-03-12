@@ -234,7 +234,7 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
     url = https://github.com/caksoylar/zmk-rgbled-widget
 [submodule "bootloader/mcuboot"]
     path = bootloader/mcuboot
-    url = https://github.com/zephyrproject-rtos/zephyr/blob/main/subsys/dfu/boot/mcuboot.c
+    url = https://github.com/zephyrproject-rtos/mcuboot
 [submodule "modules/hal/adi"]
     path = modules/hal/adi
     url = https://github.com/zephyrproject-rtos/hal_adi
