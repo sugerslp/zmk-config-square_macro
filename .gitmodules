@@ -3,10 +3,10 @@ path = modules/bsim_hw_models/nrf_hw_models
 url = https://github.com/zephyrproject-rtos/nrf_hw_models
 [submodule "modules/crypto/mbedtls"]
     path = modules/crypto/mbedtls
-     url = https://github.com/Mbed-TLS/mbedtls
+     url = https://github.com/zephyrproject-rtos/mbedtls
 [submodule "modules/crypto/tinycrypt"]
     path = modules/crypto/tinycrypt
-    url = https://github.com/Dynamite4869/tinycrypt
+    url = https://github.com/zephyrproject-rtos/tinycrypt
 
 [submodule "modules/debug/mipi-sys-t"]
     path = modules/debug/mipi-sys-t
@@ -15,7 +15,7 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
   path = modules/debug/percepio
   url = [submodule "modules/debug/percepio"]
   path = modules/debug/percepio
-  url = https://github.com/percepio/percepio
+  url = https://github.com/zephyrproject-rtos/percepio
 
 
 [submodule "modules/hal/microchip"]
@@ -109,31 +109,28 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
     url = https://github.com/zephyrproject-rtos/fatfs
 [submodule "modules/fs/littlefs"]
     path = modules/fs/littlefs
-    url = https://github.com/littlefs-project/littlefs
+    url = https://github.com/zephyrproject-rtos/littlefs
 [submodule "modules/hal/ambiq"]
     path = modules/hal/ambiq
-    url = https://github.com/AmbiqMicro/ambiqzephyr
+    url = https://github.com/zephyrproject-rtos/hal_ambiq
 [submodule "modules/hal/atmel"]
     path = modules/hal/atmel
-    url = https://github.com/atmelcorp/atmel-software-package
+    url = https://github.com/zephyrproject-rtos/hal_atmel
 [submodule "modules/hal/cmsis"]
     path = modules/hal/cmsis
-    url = https://github.com/ARM-software/CMSIS_6
+    url = https://github.com/zephyrproject-rtos/cmsis
 [submodule "modules/hal/espressif"]
     path = modules/hal/espressif
-    url = https://github.com/espressif/esp-idf
+    url = https://github.com/zephyrproject-rtos/hal_espressif
 [submodule "modules/hal/ethos_u"]
     path = modules/hal/ethos_u
-    url = https://github.com/nxp-imx/ethos-u-firmware
+    url = https://github.com/zephyrproject-rtos/hal_ethos_u
 [submodule "modules/hal/gigadevice"]
     path = modules/hal/gigadevice
-    url = https://github.com/example/gigadevice.git
-[submodule "modules/hal/gigadevice"]
-    path = modules/hal/gigadevice
-    url = https://github.com/CommunityGD32Cores/GD32Firmware
+    url = https://github.com/zephyrproject-rtos/hal_gigadevice
 [submodule "intel"]
     path = modules/hal/intel
-    url = https://github.com/intel/zephyr
+    url = https://github.com/zephyrproject-rtos/hal_intel
 
 [submodule "libmetal"]
     path = modules/hal/libmetal
@@ -141,19 +138,19 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 
 [submodule "nordic"]
     path = modules/hal/nordic
-    url = https://github.com/nrfconnect/sdk-zephyr
+    url = https://github.com/zephyrproject-rtos/hal_nordic
 
 [submodule "nuvoton"]
     path = modules/hal/nuvoton
-    url = https://github.com/OpenNuvoton/MPU-Family
+    url = https://github.com/zephyrproject-rtos/hal_nuvoton
 
 [submodule "quicklogic"]
     path = modules/hal/quicklogic
-    url = https://github.com/QuickLogic-Corp/zephyr
+    url = https://github.com/zephyrproject-rtos/hal_quicklogic
 
 [submodule "renesas"]
     path = modules/hal/renesas
-    url = https://github.com/renesas/zephyr
+    url = https://github.com/zephyrproject-rtos/hal_renesas
 
 [submodule "rpi_pico"]
     path = modules/hal/rpi_pico
@@ -165,62 +162,62 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
 
 [submodule "telink"]
     path = modules/hal/telink
-    url = https://github.com/telink-semi/zephyr
+    url = https://github.com/zephyrproject-rtos/hal_telink
 
 [submodule "wurthelektronik"]
     path = modules/hal/wurthelektronik
-    url = https://github.com/WurthElektronik/WirelessConnectivity-SDK_STM32
+    url = https://github.com/zephyrproject-rtos/hal_wurthelektronik
 
 
 [submodule "acpica"]
     path = modules/lib/acpica
-    url = https://github.com/acpica/acpica
+    url = https://github.com/zephyrproject-rtos/acpica
 
 [submodule "canopennode"]
     path = modules/lib/canopennode
-    url = https://github.com/CANopenNode/CANopenNode
+    url = https://github.com/zephyrproject-rtos/canopennode
 
 [submodule "cmsis-dsp"]
     path = modules/lib/cmsis-dsp
-    url = https://github.com/ARM-software/CMSIS-DSP
+    url = https://github.com/zephyrproject-rtos/cmsis-dsp
 
 [submodule "cmsis-nn"]
     path = modules/lib/cmsis-nn
-    url = https://github.com/ARM-software/CMSIS-NN
+    url = https://github.com/zephyrproject-rtos/cmsis-nn
 
 [submodule "gui"]
     path = modules/lib/gui/lvgl
-    url = https://github.com/lvgl/lvgl
+    url = https://github.com/zephyrproject-rtos/lvgl
 
 [submodule "liblc3"]
     path = modules/lib/liblc3
-    url = https://github.com/google/liblc3
+    url = https://github.com/zephyrproject-rtos/liblc3
 
 [submodule "nanopb"]
     path = modules/lib/nanopb
-    url = https://github.com/nanopb/nanopb
+    url =https://github.com/zephyrproject-rtos/nanopb
 
 [submodule "open-amp"]
     path = modules/lib/open-amp
-    url = https://github.com/OpenAMP/open-amp
+    url = https://github.com/zephyrproject-rtos/open-amp
 
 [submodule "picolibc"]
     path = modules/lib/picolibc
-    url = https://github.com/picolibc/picolibc
+    url = https://github.com/zephyrproject-rtos/picolibc
 
 [submodule "uoscore-uedhoc"]
     path = modules/lib/uoscore-uedhoc
-    url = https://github.com/eriptic/uoscore-uedhoc
+    url = https://github.com/zephyrproject-rtos/uoscore-uedhoc
 
 [submodule "zcbor"]
     path = modules/lib/zcbor
-    url = https://github.com/NordicSemiconductor/zcbor
+    url = https://github.com/zephyrproject-rtos/zcbor
 [submodule "modules/msgs/zmk-studio-messages"]
     path = modules/msgs/zmk-studio-messages
     url = https://github.com/zmkfirmware/zmk-studio-messages
 [submodule "modules/tee/tf-a/trusted-firmware-a"]
     path = modules/tee/tf-a/trusted-firmware-a
-    url = https://github.com/ARM-software/arm-trusted-firmware
+    url = https://github.com/zephyrproject-rtos/trusted-firmware-a
 
 
 [submodule "zephyr"]
