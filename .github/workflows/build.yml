@@ -46,3 +46,20 @@ jobs:
         with:
           name: firmware
           path: build/zephyr/zmk.uf2
+
+      - name: Check if .west directory exists
+        id: check_west
+        run: |
+          if [ -d ".west" ]; then
+            echo "West already initialized, skipping init."
+            echo "skip_west=true" >> $GITHUB_ENV
+          else
+            echo "Initializing west..."
+            west init -l
+          fi
+
+      # west init -l をスキップする場合
+      - name: Run west command only if not initialized
+        if: env.skip_west != 'true'
+        run: west update
+   
