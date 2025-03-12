@@ -18,6 +18,88 @@ url = https://github.com/zephyrproject-rtos/nrf_hw_models
   url = https://github.com/percepio/percepio
 
 
+[submodule "modules/hal/microchip"]
+    path = modules/hal/microchip
+    url = https://github.com/zephyrproject-rtos/hal_microchip
+[submodule "modules/hal/nxp"]
+    path = modules/hal/nxp
+    url = https://github.com/zephyrproject-rtos/hal_nxp
+
+[submodule "modules/hal/openisa"]
+    path = modules/hal/openisa
+    url = https://github.com/zephyrproject-rtos/hal_openisa
+
+    
+[submodule "modules/hal/silabs"]
+    path = modules/hal/silabs
+    url = https://github.com/zephyrproject-rtos/hal_silabs
+
+[submodule "modules/hal/st"]
+    path = modules/hal/st
+    url = https://github.com/zephyrproject-rtos/hal_st
+    
+[submodule "modules/hal/tdk"]
+    path = modules/hal/tdk
+    url = https://github.com/zephyrproject-rtos/hal_tdk
+
+[submodule "modules/hal/ti"]
+    path = modules/hal/ti
+    url = https://github.com/zephyrproject-rtos/hal_ti
+
+[submodule "modules/hal/wch"]
+    path = modules/hal/wch
+    url = https://github.com/zephyrproject-rtos/hal_wch
+
+[submodule "modules/hal/xtensa"]
+    path = modules/hal/xtensa
+    url = https://github.com/zephyrproject-rtos/hal_xtensa
+
+[submodule "modules/lib/cmsis_6"]
+    path = modules/lib/cmsis_6
+    url =https://github.com/zephyrproject-rtos/CMSIS_6
+    
+
+[submodule "modules/lib/hostap"]
+    path = modules/lib/hostap
+    url =https://github.com/zephyrproject-rtos/hostap
+    
+
+[submodule "modules/lib/libmctp"]
+    path = modules/lib/libmctp
+    url =https://github.com/zephyrproject-rtos/libmctp
+
+
+[submodule "modules/lib/loramac-node"]
+    path = modules/lib/loramac-node
+    url =https://github.com/zephyrproject-rtos/loramac-node
+    
+
+[submodule "modules/lib/nrf_wifi"]
+    path = modules/lib/nrf_wifi
+    url =https://github.com/zephyrproject-rtos/nrf_wifi
+    
+
+[submodule "modules/lib/openthread"]
+    path = modules/lib/openthread
+    url =https://github.com/zephyrproject-rtos/openthread
+    
+
+[submodule "modules/tee/tf-m/trusted-firmware-m"]
+    path = modules/tee/tf-m/trusted-firmware-m
+    url =https://github.com/zephyrproject-rtos/trusted-firmware-m
+    
+
+[submodule "tools/edtt"]
+    path = tools/edtt
+    url =https://github.com/zephyrproject-rtos/edtt
+[submodule "tools/net-tools"]
+    path = tools/net-tools
+    url =https://github.com/zephyrproject-rtos/net-tools
+    
+
+    
+
+
 
 [submodule "modules/debug/segger"]
     path = modules/debug/segger
