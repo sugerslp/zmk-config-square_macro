@@ -1,18 +1,14 @@
-#include "title72.dtsi"
- 
-&kscan0 {
-    gpios
-        = <&xiao_d 0 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 1 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 2 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 3 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 4 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 5 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 6 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 7 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 8 (GPIO_ACTIVE_LOW)>
-        , <&xiao_d 9 (GPIO_ACTIVE_LOW)>
-        ;
-};
+#include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
+#include <dt-bindings/zmk/bt.h>
 
-&xiao_serial { status = "disabled"; };
+#include "seeed_xiao_ble.dtsi" // Include the base board definition
+
+/ {
+    chosen {
+        zmk,physical-layout = &title72_physical_layout;
+    };
+
+    // The rest of your dtsi content will be included via Square_macro.dtsi
+    // No need to redefine kscan0 gpios here as they are in Square_macro.dtsi
+};
